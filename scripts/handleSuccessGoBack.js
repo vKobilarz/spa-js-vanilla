@@ -1,0 +1,4 @@
+function handleSuccessGoBack() {
+  unrenderContent();
+  navigateToUserForm();
+}

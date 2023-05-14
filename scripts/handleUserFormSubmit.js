@@ -14,4 +14,6 @@ function handleUserFormSubmit(e) {
   };
 
   console.log({ form });
+
+  navigateToSuccessMessage();
 }

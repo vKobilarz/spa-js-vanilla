@@ -1,6 +1,5 @@
 function createUserTitleElement() {
   const titleElement = document.createElement('h1');
-  titleElement.className = 'user-form-title';
   titleElement.innerHTML = 'Cadastro de Usuário';
 
   return titleElement;
@@ -48,6 +47,7 @@ function createUserSubmitButtonElement() {
 
 function createUserFormFieldsElement() {
   const formElement = document.createElement('div');
+  formElement.className = 'form-fields';
 
   formElement.appendChild(createUserInputElement());
   formElement.appendChild(createEmailInputElement());

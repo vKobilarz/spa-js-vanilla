@@ -19,7 +19,7 @@ function initialize() {
 
   document.body.appendChild(rootElement);
 
-  renderUserForm();
+  navigateToUserForm();
 }
 
 initialize();
